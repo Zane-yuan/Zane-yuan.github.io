@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ 卡片示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .text {
+            flex: 1;
+            color: #333;
+        }
+
+        .text h1 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .text p {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .icon {
+            background: linear-gradient(135deg, #ff6b81, #ffb3d9);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon img {
+            width: 60%;
+            height: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="text">
+            <h1>想和你建立烹饪者关系</h1>
+            <p>成为我的专属食材，让QQ帮我们记录每日日打卡</p>
+        </div>
+        <div class="icon">
+            <img src="your-icon.png" alt="icon"> <!-- 这里可以替换为您的图标 -->
+        </div>
+    </div>
+</body>
+</html>
